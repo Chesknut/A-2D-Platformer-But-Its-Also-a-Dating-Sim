@@ -1,0 +1,502 @@
+fileFormatVersion: 2
+guid: 0d984b5b39a205b4baf19c16624c018c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3365553704196404516
+    second: PinkStarSpriteSheet_0
+  - first:
+      213: -7446567382005144075
+    second: PinkStarSpriteSheet_1
+  - first:
+      213: -1352251321388395935
+    second: PinkStarSpriteSheet_2
+  - first:
+      213: 3279767351812347714
+    second: PinkStarSpriteSheet_3
+  - first:
+      213: 1691009262690896529
+    second: pink_waifu_convo_default
+  - first:
+      213: 2637371833597760275
+    second: PinkStarSpriteSheet_5
+  - first:
+      213: 1250604634869857619
+    second: PinkStarSpriteSheet_6
+  - first:
+      213: 7608661301599902706
+    second: PinkStarSpriteSheet_7
+  - first:
+      213: 5724561743782790960
+    second: PinkStarSpriteSheet_8
+  - first:
+      213: -8978841133114233686
+    second: pink_waifu_idle3
+  - first:
+      213: -2738983558809022532
+    second: PinkStarSpriteSheet_10
+  - first:
+      213: 5825581978009999599
+    second: PinkStarSpriteSheet_11
+  - first:
+      213: -2363800228756873053
+    second: PinkStarSpriteSheet_12
+  - first:
+      213: -6418900717937838682
+    second: PinkStarSpriteSheet_13
+  - first:
+      213: 4750312924797050951
+    second: pink_waifu_idle1
+  - first:
+      213: -1783337417043481489
+    second: pink_waifu_idle2
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PinkStarSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1399
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42570233349d4be20800000000000000
+      internalID: 3365553704196404516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkStarSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1399
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5a29f6b6a78a890800000000000000
+      internalID: -7446567382005144075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkStarSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1399
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16297957696db3de0800000000000000
+      internalID: -1352251321388395935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkStarSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1126
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 247d2be8703148d20800000000000000
+      internalID: 3279767351812347714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink_waifu_convo_default
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1126
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19a069e07fba77710800000000000000
+      internalID: 1691009262690896529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkStarSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1126
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313173295b3d99420800000000000000
+      internalID: 2637371833597760275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkStarSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 853
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35dffd71a4a0b5110800000000000000
+      internalID: 1250604634869857619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkStarSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 853
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fb9f123425679960800000000000000
+      internalID: 7608661301599902706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkStarSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 853
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 037c6f0739ab17f40800000000000000
+      internalID: 5724561743782790960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink_waifu_idle3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 580
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac6f06bf8fb46380800000000000000
+      internalID: -8978841133114233686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkStarSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 580
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf8d8b07fc2df9d0800000000000000
+      internalID: -2738983558809022532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkStarSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 580
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe8143991ff98d050800000000000000
+      internalID: 5825581978009999599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkStarSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 307
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0a5f44738123fd0800000000000000
+      internalID: -2363800228756873053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PinkStarSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 307
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5b0da4ecb7be6a0800000000000000
+      internalID: -6418900717937838682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink_waifu_idle1
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 309
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740a976df608ce140800000000000000
+      internalID: 4750312924797050951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pink_waifu_idle2
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 28
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ce57651105047e0800000000000000
+      internalID: -1783337417043481489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

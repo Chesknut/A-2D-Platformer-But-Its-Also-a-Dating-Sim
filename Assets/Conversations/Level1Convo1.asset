@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8802d4c898deaff4795fbe2f5419d4c6, type: 3}
+  m_Name: Level1Convo1
+  m_EditorClassIdentifier: 
+  speakerLeft: {fileID: 11400000, guid: 0ae2a309f75a95847bf0d853a4218e6d, type: 2}
+  speakerRight: {fileID: 11400000, guid: 6ea2c4f975f197848aa1308e1dc6b004, type: 2}
+  lines:
+  - character: {fileID: 11400000, guid: 6ea2c4f975f197848aa1308e1dc6b004, type: 2}
+    text: Hi there! I don't often see people out here. Well, nice to meet you! My
+      name's Lirge. What's yours?
+  - character: {fileID: 11400000, guid: 0ae2a309f75a95847bf0d853a4218e6d, type: 2}
+    text: H-hi. I'm P'mis.
+  - character: {fileID: 11400000, guid: 0ae2a309f75a95847bf0d853a4218e6d, type: 2}
+    text: ...
+  - character: {fileID: 11400000, guid: 0ae2a309f75a95847bf0d853a4218e6d, type: 2}
+    text: So uh, what brings you out here?
+  - character: {fileID: 11400000, guid: 6ea2c4f975f197848aa1308e1dc6b004, type: 2}
+    text: Oh, I was just looking for some stuff that I lost the last time I came
+      here.
+  - character: {fileID: 11400000, guid: 0ae2a309f75a95847bf0d853a4218e6d, type: 2}
+    text: Oh cool, well not cool, but I see. Um, I can help you find what you're
+      looking for!
+  - character: {fileID: 11400000, guid: 6ea2c4f975f197848aa1308e1dc6b004, type: 2}
+    text: Really? You really don't have to.
+  - character: {fileID: 11400000, guid: 0ae2a309f75a95847bf0d853a4218e6d, type: 2}
+    text: I insist! I'm not really doing much anyways.
+  - character: {fileID: 11400000, guid: 6ea2c4f975f197848aa1308e1dc6b004, type: 2}
+    text: Oh okay, well if you're not doing anything... then thanks! That's so nice
+      of you! They look like floating, animated collectibles. If you can't find them,
+      it's totally okay, I'll find them myself eventually haha.
+  - character: {fileID: 11400000, guid: 0ae2a309f75a95847bf0d853a4218e6d, type: 2}
+    text: Gotcha, I'll bring them to you as soon as I find them!

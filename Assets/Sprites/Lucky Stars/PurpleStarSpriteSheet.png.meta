@@ -1,0 +1,502 @@
+fileFormatVersion: 2
+guid: 653ab264fee2de94fb738e39ebefcbbd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8352699710726417348
+    second: PurpleStarSpriteSheet_0
+  - first:
+      213: -4674039754467565178
+    second: PurpleStarSpriteSheet_1
+  - first:
+      213: -4061860117431164184
+    second: purple_player_death
+  - first:
+      213: -1993614036759311589
+    second: PurpleStarSpriteSheet_3
+  - first:
+      213: -8329634209201673328
+    second: PurpleStarSpriteSheet_4
+  - first:
+      213: 134304728203134334
+    second: PurpleStarSpriteSheet_5
+  - first:
+      213: 7489384470057189085
+    second: PurpleStarSpriteSheet_6
+  - first:
+      213: 2218452488161584686
+    second: PurpleStarSpriteSheet_7
+  - first:
+      213: -7717849090543863996
+    second: PurpleStarSpriteSheet_8
+  - first:
+      213: -1100191405914980855
+    second: PurpleStarSpriteSheet_9
+  - first:
+      213: 3151355413049262113
+    second: PurpleStarSpriteSheet_10
+  - first:
+      213: 1622254194245450692
+    second: PurpleStarSpriteSheet_11
+  - first:
+      213: -527781559904499997
+    second: PurpleStarSpriteSheet_12
+  - first:
+      213: -2181484349702793875
+    second: PurpleStarSpriteSheet_13
+  - first:
+      213: -5701600603125043479
+    second: purple_player_idle1
+  - first:
+      213: -5531106493698837349
+    second: purple_player_idle2
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PurpleStarSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1399
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb2b55e120cae370800000000000000
+      internalID: 8352699710726417348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleStarSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1401
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68128e08b99722fb0800000000000000
+      internalID: -4674039754467565178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_player_death
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1399
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2603d6ebf51a7c0800000000000000
+      internalID: -4061860117431164184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleStarSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1126
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b8abf98924554e0800000000000000
+      internalID: -1993614036759311589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleStarSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 1126
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ba79ba1d1376c80800000000000000
+      internalID: -8329634209201673328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleStarSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1126
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75043050752dd100800000000000000
+      internalID: 134304728203134334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleStarSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 853
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddef51cbe73afe760800000000000000
+      internalID: 7489384470057189085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleStarSpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 853
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26e3fbb8c689ce10800000000000000
+      internalID: 2218452488161584686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleStarSpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 853
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447bf00a421b4e490800000000000000
+      internalID: -7717849090543863996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleStarSpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 580
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90eff71deb55bb0f0800000000000000
+      internalID: -1100191405914980855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleStarSpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 580
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1204ec33d0ddbbb20800000000000000
+      internalID: 3151355413049262113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleStarSpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 580
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb33673897638610800000000000000
+      internalID: 1622254194245450692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleStarSpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 307
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e604e2b771fca8f0800000000000000
+      internalID: -527781559904499997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PurpleStarSpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 307
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6514ecba8fc9b1e0800000000000000
+      internalID: -2181484349702793875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_player_idle1
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 307
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee2497b578dfd0b0800000000000000
+      internalID: -5701600603125043479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: purple_player_idle2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 28
+        width: 248
+        height: 230
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b947934f2ff8d33b0800000000000000
+      internalID: -5531106493698837349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
