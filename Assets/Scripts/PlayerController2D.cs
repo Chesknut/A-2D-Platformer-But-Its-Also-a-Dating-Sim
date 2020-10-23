@@ -8,14 +8,7 @@ public class PlayerController2D : MonoBehaviour
     Rigidbody2D rb2d;
     SpriteRenderer spriteRenderer;
 
-    bool isGrounded;
-
-    [SerializeField]
-    Transform groundCheck = null;
-    [SerializeField]
-    Transform groundCheckLeft = null;
-    [SerializeField]
-    Transform groundCheckRight = null;
+    public RaycastGroundCheck rgc;
 
     [SerializeField]
     private float runSpeed = 3f;
@@ -33,8 +26,6 @@ public class PlayerController2D : MonoBehaviour
 
     private void FixedUpdate() 
     {
-        CheckIfGrounded();
-
         MoveHorizontally();
         Jump();
     }
@@ -45,7 +36,7 @@ public class PlayerController2D : MonoBehaviour
         {
             rb2d.velocity = new Vector2(runSpeed, rb2d.velocity.y);
 
-            if(isGrounded)
+            if(rgc.IsGrounded())
                 animator.Play("Player_run");
 
             spriteRenderer.flipX = false;
@@ -54,7 +45,7 @@ public class PlayerController2D : MonoBehaviour
         {
             rb2d.velocity = new Vector2(-runSpeed, rb2d.velocity.y);
 
-            if(isGrounded)
+            if(rgc.IsGrounded())
                 animator.Play("Player_run");
             
             spriteRenderer.flipX = true;
@@ -63,33 +54,17 @@ public class PlayerController2D : MonoBehaviour
         {
             rb2d.velocity = new Vector2(0, rb2d.velocity.y);
 
-            if(isGrounded)
+            if(rgc.IsGrounded())
                 animator.Play("Player_idle");
         }
     }
 
     private void Jump()
     {
-        if((Input.GetKey("space") || Input.GetKey("w") || Input.GetKey("up")) && isGrounded)
+        // Debug.Log("IsGrounded bool: " + rgc.IsGrounded());
+        if((Input.GetKey("space") || Input.GetKey("w") || Input.GetKey("up")) && rgc.IsGrounded())
         {
             rb2d.velocity = new Vector2(rb2d.velocity.x, jumpSpeed);
-            animator.Play("Player_jump");
-        }
-    }
-
-    private void CheckIfGrounded()
-    {
-        if(
-            Physics2D.Linecast(transform.position, groundCheck.position, 1 << LayerMask.NameToLayer("Ground")) ||
-            Physics2D.Linecast(transform.position, groundCheckLeft.position, 1 << LayerMask.NameToLayer("Ground")) ||
-            Physics2D.Linecast(transform.position, groundCheckRight.position, 1 << LayerMask.NameToLayer("Ground"))
-        )
-        {
-            isGrounded = true;
-        }
-        else
-        {
-            isGrounded = false;
             animator.Play("Player_jump");
         }
     }
@@ -124,10 +99,11 @@ public class PlayerController2D : MonoBehaviour
         // https://www.youtube.com/watch?v=WGWubpzz2pw
     // Add level progression
     // Add sound effects and music
-    // Look into linecasting in multiple directions for rotated player? Like Super Bunny Man https://youtu.be/hMNERppkHOk?t=47
+    // Look into linecasting in multiple directions for rotated player? Like Super Bunny Man https://youtu.be/hMNERppkHOk?t=47 - CHECK!!!
         // Global position or condition for being on ground tied to collision of ground - ATTEMPTED - but lets them escape death by jumping on walls forever while falling
-        // Or various groundchecks on different sides and disable other sides depending on which side is in contact
+        // Or various groundchecks on different sides/linecasting/raycasting and disable other sides depending on which side is in contact
+        // Overlapping (overlap box - 4 boxes on each side of player, and activate/deactivate based on player's current rotation/circle) is alternative to raycasting 
         // https://www.youtube.com/watch?v=wi-RL4sUayo
     // Make wall collision less janky? Player is sticking to walls which is also kinda cool like Spiderman - CHECK
-    // Player P'mis and Uwu Lirge
-    // Eventually rename project one day - https://support.unity.com/hc/en-us/articles/115000086383-How-do-I-change-my-project-s-name-
+    // Player P'mis and Uwu Lirge - teehee
+    // Eventually rename project one day - https://support.unity.com/hc/en-us/articles/115000086383-How-do-I-change-my-project-s-name- - CHECK
