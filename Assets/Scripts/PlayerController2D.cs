@@ -24,7 +24,7 @@ public class PlayerController2D : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    private void FixedUpdate() 
+    private void FixedUpdate()
     {
         MoveHorizontally();
         Jump();

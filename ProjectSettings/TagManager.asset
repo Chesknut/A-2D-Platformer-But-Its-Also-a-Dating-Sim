@@ -18,7 +18,7 @@ TagManager:
   - 
   - Player
   - Ground
-  - 
+  - Dialog
   - 
   - 
   - 
@@ -52,4 +52,7 @@ TagManager:
     locked: 0
   - name: Water
     uniqueID: 1242739797
+    locked: 0
+  - name: Dialog
+    uniqueID: 4136016507
     locked: 0
