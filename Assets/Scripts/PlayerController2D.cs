@@ -24,7 +24,7 @@ public class PlayerController2D : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
-    private void FixedUpdate() 
+    private void FixedUpdate()
     {
         MoveHorizontally();
         Jump();
@@ -88,13 +88,13 @@ public class PlayerController2D : MonoBehaviour
         // Camera re-follow after respawn: https://youtu.be/icKfFnnHHIY?t=438
     // Add animations! (Star eyes for jump, arrow eyes for running) - CHECK
     // *Add dialogue bubbles or new scenes for each one? - NAH
-        // OR OVERLAY CANVAS ON TOP OF NORMAL SCENE - https://youtu.be/YJLcanHcJxo?t=609
-        // Scripts for comparison: https://drive.google.com/drive/folders/1UaZPu8hQp11xprABSteBAphIZSJpenHw
+        // OR OVERLAY CANVAS ON TOP OF NORMAL SCENE - CHECK
+            // Great text box resources: https://cloudnovel.net/search/resource?q=text&pageNumber=1
         // 1. Walk up to waifu (mwahmwahmwah)
         // 2. Give her a trigger function - Press F to start dialogue
         // 3. Overlay the Canvas and disable inputs
         // 4. Add uwu owo dialogue choices (and should also say uwu owo occasionally/randomly as you play)
-        // 5. Hide Canvas after dialogue
+        // 5. Hide Canvas after dialogue - CHECK
         // https://www.youtube.com/watch?v=YJLcanHcJxo
         // https://www.youtube.com/watch?v=WGWubpzz2pw
     // Add level progression

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class DialogueDisplay : MonoBehaviour
+public class DialogDisplay : MonoBehaviour
 {
     public Conversation conversation;
 
@@ -25,7 +25,7 @@ public class DialogueDisplay : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown("space"))
+        if(Input.GetKeyDown("f"))
             AdvanceConversation();
     }
 
@@ -64,5 +64,6 @@ public class DialogueDisplay : MonoBehaviour
     {
         activeSpeakerUI.Dialog = text;
         activeSpeakerUI.Show();
+        inactiveSpeakerUI.Hide();
     }
 }
