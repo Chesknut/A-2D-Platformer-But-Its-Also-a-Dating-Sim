@@ -10,6 +10,8 @@ public class PlayerController2D : MonoBehaviour
 
     public RaycastGroundCheck rgc;
 
+    bool playerIsNearWaifu;
+
     [SerializeField]
     private float runSpeed = 3f;
 
@@ -74,6 +76,27 @@ public class PlayerController2D : MonoBehaviour
         if(collision.CompareTag("Gift"))
         {
             Destroy(collision.gameObject);
+        }
+
+        if (collision.gameObject.CompareTag("Waifu"))
+        {
+            playerIsNearWaifu = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Waifu"))
+        {
+            playerIsNearWaifu = false;
+        }
+    }
+
+    private void OnGUI()
+    {
+        if(playerIsNearWaifu)
+        {
+            GUI.Box(new Rect(1745, 600, 150, 25), "Press F to converse");
         }
     }
 }
