@@ -31,7 +31,7 @@ MonoBehaviour:
     text: Oh cool, well not cool, but I see. Um, I can help you find what you're
       looking for!
   - character: {fileID: 11400000, guid: 6ea2c4f975f197848aa1308e1dc6b004, type: 2}
-    text: Really? You really don't have to.
+    text: Really? You honestly don't have to.
   - character: {fileID: 11400000, guid: 0ae2a309f75a95847bf0d853a4218e6d, type: 2}
     text: I insist! I'm not really doing much anyways.
   - character: {fileID: 11400000, guid: 6ea2c4f975f197848aa1308e1dc6b004, type: 2}
