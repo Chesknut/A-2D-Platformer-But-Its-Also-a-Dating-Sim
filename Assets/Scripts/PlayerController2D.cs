@@ -114,7 +114,7 @@ public class PlayerController2D : MonoBehaviour
         // OR OVERLAY CANVAS ON TOP OF NORMAL SCENE - CHECK
             // Great text box resources: https://cloudnovel.net/search/resource?q=text&pageNumber=1
         // 1. Walk up to waifu (mwahmwahmwah)
-        // 2. Give her a trigger function - Press F to start dialogue
+        // 2. Give her a trigger function - Press F to start dialogue - CHECK
         // 3. Overlay the Canvas and disable inputs
         // 4. Add uwu owo dialogue choices (and should also say uwu owo occasionally/randomly as you play)
         // 5. Hide Canvas after dialogue - CHECK
@@ -122,11 +122,7 @@ public class PlayerController2D : MonoBehaviour
         // https://www.youtube.com/watch?v=WGWubpzz2pw
     // Add level progression
     // Add sound effects and music
-    // Look into linecasting in multiple directions for rotated player? Like Super Bunny Man https://youtu.be/hMNERppkHOk?t=47 - CHECK!!!
-        // Global position or condition for being on ground tied to collision of ground - ATTEMPTED - but lets them escape death by jumping on walls forever while falling
-        // Or various groundchecks on different sides/linecasting/raycasting and disable other sides depending on which side is in contact
-        // Overlapping (overlap box - 4 boxes on each side of player, and activate/deactivate based on player's current rotation/circle) is alternative to raycasting 
-        // https://www.youtube.com/watch?v=wi-RL4sUayo
+    // Modify groundcheck for rotated player - CHECK!!!
     // Make wall collision less janky? Player is sticking to walls which is also kinda cool like Spiderman - CHECK
     // Player P'mis and Uwu Lirge - teehee
     // Eventually rename project one day - https://support.unity.com/hc/en-us/articles/115000086383-How-do-I-change-my-project-s-name- - CHECK
