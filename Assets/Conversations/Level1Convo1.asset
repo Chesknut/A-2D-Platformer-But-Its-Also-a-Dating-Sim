@@ -22,6 +22,8 @@ MonoBehaviour:
     text: H-hi. I'm P'mis.
   - character: {fileID: 11400000, guid: 0ae2a309f75a95847bf0d853a4218e6d, type: 2}
     text: ...
+  - character: {fileID: 11400000, guid: 6ea2c4f975f197848aa1308e1dc6b004, type: 2}
+    text: ...
   - character: {fileID: 11400000, guid: 0ae2a309f75a95847bf0d853a4218e6d, type: 2}
     text: So uh, what brings you out here?
   - character: {fileID: 11400000, guid: 6ea2c4f975f197848aa1308e1dc6b004, type: 2}
