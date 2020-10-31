@@ -96,7 +96,7 @@ public class PlayerController2D : MonoBehaviour
     {
         if(playerIsNearWaifu)
         {
-            GUI.Box(new Rect(1745, 600, 150, 25), "Press F to converse");
+            GUI.Box(new Rect(1730, 685, 150, 25), "Press F to converse");
         }
     }
 }
@@ -106,18 +106,18 @@ public class PlayerController2D : MonoBehaviour
     // *Add respawn - CHECK
     // *Add a main menu
     // *Don't let player exit level forever (Add box collider for edges or is there a better practice/way to do this?) - BOX COLLIDER - CHECK
-    // *Do we want a camera follow? Must for decent 2D platformers lol? ->
-        // Either make own camera follow script Cinemachine (really hot kid on the block mwahmwahmwah - diff cameras in levels ie. look down/ahead)
-        // Camera re-follow after respawn: https://youtu.be/icKfFnnHHIY?t=438
+    // Add Cinemachine (really hot kid on the block mwahmwahmwah - diff cameras in levels ie. look down/ahead) - CHECK!
+        // Camera re-follow after respawn - CHECK
     // Add animations! (Star eyes for jump, arrow eyes for running) - CHECK
     // *Add dialogue bubbles or new scenes for each one? - NAH
         // OR OVERLAY CANVAS ON TOP OF NORMAL SCENE - CHECK
             // Great text box resources: https://cloudnovel.net/search/resource?q=text&pageNumber=1
         // 1. Walk up to waifu (mwahmwahmwah)
-        // 2. Give her a trigger function - Press F to start dialogue - CHECK
-        // 3. Overlay the Canvas and disable inputs
-        // 4. Add uwu owo dialogue choices (and should also say uwu owo occasionally/randomly as you play)
-        // 5. Hide Canvas after dialogue - CHECK
+        // 2. Give her a prompt trigger when player is near - Press F to start dialogue - CHECK
+        // 3. Overlay the Canvas - CHECK
+        // 4. Disable player movement inputs
+        // 5. Add uwu owo dialogue choices (and should also say uwu owo occasionally/randomly as you play)
+        // 6. Hide Canvas after dialogue - CHECK
         // https://www.youtube.com/watch?v=YJLcanHcJxo
         // https://www.youtube.com/watch?v=WGWubpzz2pw
     // Add level progression
@@ -126,5 +126,5 @@ public class PlayerController2D : MonoBehaviour
     // Make wall collision less janky? Player is sticking to walls which is also kinda cool like Spiderman - CHECK
     // Player P'mis and Uwu Lirge - teehee
     // Eventually rename project one day - https://support.unity.com/hc/en-us/articles/115000086383-How-do-I-change-my-project-s-name- - CHECK
-    // Add overlapping box colliders for each side (5) to show better standings
+    // Add overlapping box colliders for each side (5) to show better standing positions - CHECK, with polygon colliders!
     // Look into always spinning while moving? - research
