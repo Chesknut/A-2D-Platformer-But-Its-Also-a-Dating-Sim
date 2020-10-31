@@ -126,3 +126,5 @@ public class PlayerController2D : MonoBehaviour
     // Make wall collision less janky? Player is sticking to walls which is also kinda cool like Spiderman - CHECK
     // Player P'mis and Uwu Lirge - teehee
     // Eventually rename project one day - https://support.unity.com/hc/en-us/articles/115000086383-How-do-I-change-my-project-s-name- - CHECK
+    // Add overlapping box colliders for each side (5) to show better standings
+    // Look into always spinning while moving? - research
