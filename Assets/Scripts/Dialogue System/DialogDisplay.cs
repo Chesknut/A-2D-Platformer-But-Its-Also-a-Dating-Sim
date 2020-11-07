@@ -11,15 +11,20 @@ public class DialogDisplay : MonoBehaviour
     private SpeakerUI speakerUIRight;
 
     private int activeLineIndex = 0;
+    private bool conversationStarted = false;
+
+    public void ChangeConversation(Conversation nextConversation)
+    {
+        conversationStarted = false;
+        conversation = nextConversation;
+        AdvanceLine();
+    }
 
     // Start is called before the first frame update
     void Start()
     {
         speakerUILeft = speakerLeft.GetComponent<SpeakerUI>();
         speakerUIRight = speakerRight.GetComponent<SpeakerUI>();
-
-        speakerUILeft.Speaker = conversation.speakerLeft;
-        speakerUIRight.Speaker = conversation.speakerRight;
     }
 
     // Update is called once per frame
@@ -27,25 +32,45 @@ public class DialogDisplay : MonoBehaviour
     {
         if(Input.GetKeyDown("f"))
             AdvanceConversation();
+        else if (Input.GetKeyDown("x"))
+            EndConversation();
     }
 
-    void AdvanceConversation()
+    private void EndConversation()
     {
+        conversation = null;
+        conversationStarted = false;
+        speakerUILeft.Hide();
+        speakerUIRight.Hide();
+    }
+
+    private void Initialize()
+    {
+        conversationStarted = true;
+        activeLineIndex = 0;
+        speakerUILeft.Speaker = conversation.speakerLeft;
+        speakerUIRight.Speaker = conversation.speakerRight;
+    }
+
+    private void AdvanceLine()
+    {
+        if (conversation == null)
+            return;
+        if (!conversationStarted)
+            Intialize();
+
         if(activeLineIndex < conversation.lines.Length)
         {
             DisplayLine();
-            activeLineIndex += 1;
         }
-        else // End of conversation
+        else // End of conversation - look if there's a next conversation
         {
-            speakerUILeft.Hide();
-            speakerUIRight.Hide();
-            activeLineIndex = 0;
+            AdvanceConversation();
         }
     }
 
     // For only two characters
-    void DisplayLine()
+    private void DisplayLine()
     {
         Line line = conversation.lines[activeLineIndex];
         Character character = line.character;
@@ -54,6 +79,18 @@ public class DialogDisplay : MonoBehaviour
             SetDialog(speakerUILeft, speakerUIRight, line.text);
         else
             SetDialog(speakerUIRight, speakerUILeft, line.text);
+
+        activeLineIndex += 1;
+    }
+
+    private void AdvanceConversation()
+    {
+        if (conversation.question != null)
+            questionEvent.Invoke(conversation.question);
+        else if (conversation.nextConversation != null)
+            ChangeConversation(conversation.nextConversation);
+        else
+            EndConversation();
     }
 
     void SetDialog(
