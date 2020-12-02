@@ -1,9 +1,16 @@
 ﻿using UnityEngine;
+using UnityEditor;
+using UnityEngine.Events;
+using System.Collections;
+
+[System.Serializable]
+public class QuestionEvent : UnityEvent<Question> {}
 
 public class DialogDisplay : MonoBehaviour
 {
     public Conversation conversation;
-
+    public QuestionEvent questionEvent;
+    
     public GameObject speakerLeft;
     public GameObject speakerRight;
 
